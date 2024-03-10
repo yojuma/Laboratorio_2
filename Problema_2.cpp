@@ -5,36 +5,16 @@ using namespace std;
 
 void imprimir(int ca,int cb,int cc,int cd,int ce,int cf,int cg,int ch,int ci,int cj,int ck,int cl,int cm,int cn,int co,int cp,int cq,int cr,int cs,int ct,int cu,int cv,int cw,int cx,int cy,int cz){
     //funcion para imprimir las veces que se repite cada letra
-    cout<<"a: "<<ca<<endl;
-    cout<<"b: "<<cb<<endl;
-    cout<<"c: "<<cc<<endl;
-    cout<<"d: "<<cd<<endl;
-    cout<<"e: "<<ce<<endl;
-    cout<<"f: "<<cf<<endl;
-    cout<<"g: "<<cg<<endl;
-    cout<<"h: "<<ch<<endl;
-    cout<<"i: "<<ci<<endl;
-    cout<<"j: "<<cj<<endl;
-    cout<<"k: "<<ck<<endl;
-    cout<<"l: "<<cl<<endl;
-    cout<<"m: "<<cm<<endl;
-    cout<<"n: "<<cn<<endl;
-    cout<<"o: "<<co<<endl;
-    cout<<"p: "<<cp<<endl;
-    cout<<"q: "<<cq<<endl;
-    cout<<"r: "<<cr<<endl;
-    cout<<"s: "<<cs<<endl;
-    cout<<"t: "<<ct<<endl;
-    cout<<"u: "<<cu<<endl;
-    cout<<"v: "<<cv<<endl;
-    cout<<"w: "<<cw<<endl;
-    cout<<"x: "<<cx<<endl;
-    cout<<"y: "<<cy<<endl;
+    cout<<"a: "<<ca<<endl;cout<<"b: "<<cb<<endl;cout<<"c: "<<cc<<endl;cout<<"d: "<<cd<<endl; cout<<"e: "<<ce<<endl;
+    cout<<"f: "<<cf<<endl;cout<<"g: "<<cg<<endl;cout<<"h: "<<ch<<endl; cout<<"i: "<<ci<<endl;cout<<"j: "<<cj<<endl;
+    cout<<"k: "<<ck<<endl;cout<<"l: "<<cl<<endl; cout<<"m: "<<cm<<endl; cout<<"n: "<<cn<<endl;cout<<"o: "<<co<<endl;
+    cout<<"p: "<<cp<<endl;cout<<"q: "<<cq<<endl; cout<<"r: "<<cr<<endl; cout<<"s: "<<cs<<endl; cout<<"t: "<<ct<<endl;
+    cout<<"u: "<<cu<<endl; cout<<"v: "<<cv<<endl;cout<<"w: "<<cw<<endl; cout<<"x: "<<cx<<endl;cout<<"y: "<<cy<<endl;
     cout<<"z: "<<cz<<endl;
 }
 
 int ejercicio2(){
-    srand(time(NULL));
+    srand(time(NULL)); //inicializar las variables en 0 en cada ejecución
     int num=0;
     int numero=200;
     char letras[26]={'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};

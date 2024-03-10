@@ -1,17 +1,23 @@
 #include<iostream>
-#include<stdlib.h> //para atoi(), sirve para convertir char a int
+#include<string> //para stoi(), sirve para convertir char a int
 using namespace std;
 
-int convertir_int_a_char(char* cadena){
+int convertir_int_a_char(string& cadena){
     //funcion para convertir un char a int
-    int numero = atoi(cadena);
+    int numero = stoi(cadena);
     return numero;
 }
 
 int ejercicio4(){
-    char* cadena="123";
-    int numero;
-    numero=convertir_int_a_char(cadena);
-    cout<<"Numero entero: "<<numero<<endl;
+    string cadena;
+    int resultado;
+
+    cout<<"Ingrese un numero: ";
+    cin>>cadena;
+    resultado=convertir_int_a_char(cadena);
+    cout << "El numero entero resultante es: " << resultado << endl;
     return 0;
 }
+
+
+
