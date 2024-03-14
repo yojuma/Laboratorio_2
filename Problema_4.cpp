@@ -2,7 +2,7 @@
 #include<string> //para stoi(), sirve para convertir char a int
 using namespace std;
 
-int convertir_int_a_char(string& cadena){
+int convertir_int_a_char(string& cadena){   //&cadena se usa para pasar la variable por referencia, para modificar la variable
     //funcion para convertir un char a int
     int numero = stoi(cadena);
     return numero;

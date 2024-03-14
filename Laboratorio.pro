@@ -8,6 +8,8 @@ SOURCES += \
         Problema_10.cpp \
         Problema_11.cpp \
         Problema_12.cpp \
+        Problema_13.cpp \
+        Problema_14.cpp \
         Problema_2.cpp \
         Problema_3.cpp \
         Problema_4.cpp \
@@ -19,4 +21,17 @@ SOURCES += \
         main.cpp
 
 HEADERS += \
-    Practica2.h
+    problema1.h \
+    problema10.h \
+    problema11.h \
+    problema12.h \
+    problema13.h \
+    problema14.h \
+    problema2.h \
+    problema3.h \
+    problema4.h \
+    problema5.h \
+    problema6.h \
+    problema7.h \
+    problema8.h \
+    problema9.h

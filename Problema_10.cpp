@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-int letra_romana_a_valor(char c) {
+int letra_romana_a_valor(char c){
     switch (c) {
         case 'I': return 1;
         case 'V': return 5;

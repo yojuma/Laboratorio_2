@@ -9,7 +9,7 @@ const int asientos_por_fila = 20;
 
 vector<vector<bool>>asientos(filas,vector<bool>(asientos_por_fila, false)); //iniciamos un vector de vectores, de asientos y filas
 
-void mostrarSala() {
+void mostrarSala(){
     cout << "Estado de la sala:" << endl;
     cout<<endl;
     for (int fila = 0; fila < filas; ++fila){
@@ -25,7 +25,7 @@ void mostrarSala() {
     }
 }
 
-void reservarAsiento(int fila, int asiento) {
+void reservarAsiento(int fila, int asiento){
     if (fila >= 1 && fila <= filas && asiento >= 1 && asiento <= asientos_por_fila) {
         if (asientos[fila - 1][asiento - 1]==false) { //verifica que el asiento esté libre==false
             asientos[fila - 1][asiento - 1] = true;   //lo convierte a reservado==true
