@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include "problema14.h"
 using namespace std;
 
 vector<vector<int>> matriz(5, vector<int>(5));
@@ -24,7 +25,7 @@ void imprimir_original(){
     cout<<"Matriz original: "<<endl;
     for (int fila = 0; fila < 5; fila++) {
         for (int columna = 0; columna < 5; columna++) {
-                matriz[columna][fila]+=contador;
+                matriz[fila][columna]+=contador;
                 contador++;
         }
 
