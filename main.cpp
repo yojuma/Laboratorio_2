@@ -15,9 +15,11 @@
 #include "problema14.h"
 #include "problema15.h"
 #include "problema16.h"
+#include "problema17.h"
+#include "problema18.h"
 using namespace std;
 
 int main(){
-    ejercicio16();
+    ejercicio18();
     return 0;
 }
